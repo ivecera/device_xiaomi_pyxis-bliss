@@ -566,10 +566,6 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics
-vendor/etc/permissions/android.hardware.opengles.aep.xml
-vendor/etc/permissions/android.hardware.vulkan.compute.xml
-vendor/etc/permissions/android.hardware.vulkan.level.xml
-vendor/etc/permissions/android.hardware.vulkan.version.xml
 vendor/etc/permissions/android.software.vulkan.deqp.level.xml
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
@@ -1191,7 +1187,6 @@ vendor/etc/init/qseecomd.rc
 vendor/etc/init/tloc_daemon.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/init/wfdvndservice.rc
-vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/etc/sdr_config.cfg
 vendor/lib/btaudio_offload_if.so
 vendor/lib/libFileMux_proprietary.so
